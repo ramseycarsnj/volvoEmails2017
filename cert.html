@@ -20,11 +20,15 @@
       figure, figcaption, footer, header, hgroup,
       menu, nav, output, ruby, section, summary,
       time, mark, audio, video {
-      	margin: 0;
+      	margin: 0 auto;
       	padding: 0;
       	border: 0;
       	font-size: 100%;
-      	vertical-align: baseline;
+      	vertical-align: middle;
+      }
+      table {
+        text-align: center;
+
       }
       body {
       	line-height: 1;
@@ -36,13 +40,22 @@
         font-family: Arial, sans-serif;
         font-weight: bold;
         color: #003057;
-        font-size: 40px;
+        font-size: 47px;
+        line-height: 1.3;
+      }
+      h2 {
+        font-size: 100px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #000000;
+        margin: 0px 0 0 0;
+        line-height: .8
       }
       h3 {
         font-family: Arial, sans-serif;
         font-weight: bold;
-        color: #003057;
-        font-size: 14px;
+        color: #000000;
+        font-size: 16px;
       }
       table {
         border-collapse: collapse;
@@ -99,7 +112,7 @@
         margin: auto;
         border: 0;
         color: #333132;
-        background-color: #ffffff;
+        background-color: #fafafa;
       }
       #volvoIronMark {
         width: 57px;
@@ -121,7 +134,7 @@
         font-weight: normal;
         color: #333132;
         width: 650px;
-        background-color: #ffffff;
+        background-color: #fafafa;
       }
       #salutation {
         padding: 30px 30px 10px 30px;
@@ -232,7 +245,50 @@
         padding: 10px 0 0 0;
         vertical-align: bottom;
       }
+      #offer {
+        text-align: center;
+        width: 650px;
+        padding: 0px;
+        margin: auto;
+      }
+      #guarentee {
+        width: 120px;
+      }
+      #best {
+        width: 650px;
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+      #pricing {
+        background: #fafafa;
+        padding: 20px 0;
+        margin: 20px 0;
+      }
+      #volvoHeading {
+        display: block;
+        text-align: left;
+        font-weight: 900;
+        font-size: 16px;
+        vertical-align: middle;
+      }
+      #volvoVehicle {
+        display: block;
+        text-align: left;
+        font-size: 16px;
+        vertical-align: middle;
+      }
+      #vehicleImage {
+        width: 300px;
+      }
+      #textArea {
+        text-align: left;
+        padding: 0 50px 30px 50px;
+      }
+      #robSig {
+        width: 200px;
 
+      }
     </style>
   </head>
   <body>
@@ -265,44 +321,57 @@
 
           <tr>
             <td>
-              <div id="salutation">
-                <h3>Hello <span id="customerNameDisplay">*INSERT CUSTOMER NAME*</span> ,</h3>
-                <p>
-                How is your search for a new Volvo coming along?
-                        <br><br>Purchasing a vehicle can be very complicated and we know it’s important for you to get the right car at the right price. What we have found in helping our customers is that there are always questions that arise during the research phase of the car buying process. I am here to help you! These brochures allow you to change colors of the vehicles' interior, and exterior. Of course, all the technical information you might need is in there too. <br><br></p>
+              <div id="offer">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>VOLVO CARS RAMSEY</h3>
+                <h1>PROUDLY PRESENTS</h1>
+                <br>
+                <br>
+
+                <div id="pricing">
+                  <h2>$2000 OFF</h2>
+                  <img src="best.png" alt="" id="best">
+                  <br>
+                  <table>
+                    <tr>
+                      <td>
+                        <img src="crystalWhitePearl.jpg" alt=""  id="vehicleImage">
+                      </td>
+                      <td>
+                        <span id="volvoHeading">2017 VOLVO</span>
+                        <span id="volvoVehicle">XC90 T6 INSCRIPTION AWD</span>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <p id="textArea">
+                  This is certificate is proudly presented to you by Volvo Cars Ramsey in regards to your recent inquiry for the VEHICLE we received from you. We are confident that we can meet all of your needs. If you would like to take advantage of this offer please contact us or come in to showroom at your earliest convenience. Please note that this is a limited time offer (expiring DATE). That you for you interest, we look forward to hearing from you
+                  <br>
+                  <br>
+                  <br>
+
+Sincerely,
+<br>
+<br>
+<img src="signature.png" alt=""  id="robSig">
+<br>
+Robert Wood<br />
+Manager of E-Commerce<br />
+Volvo Cars Ramsey
                 </p>
-              </div>
-            </td>
-          </tr>
 
 
-
-          <tr>
-            <td>
-              <div id="signature">
-                <table id="signatureTable">
-                  <tr>
-                    <td id="signatureContentLeft">
-                      <p>
-                        Sincerely,
-                      </p>
-                      <p>
-                        <ul>
-                          <li id="currentUser">Name Name</li>
-                          <li id="userLocation">Ramsey Volvo</li>
-                          <li id="currentUserPosition">E-Commerce Manager</li>
-                          <li id="currentUserPhone"><a href="tel:8883190377">888.319.0377</a> x <span id="currentUserExtension"></span></li>
-                          <li id="currentUserEmail"><a href="mailto:namename@ramseydealer.com">namename@ramseydealer.com</a></li>
-                        </ul>
-                      </p>
-                    </td>
-
-                    <td id="signatureContentRight">
-                      <img src="http://pictures.dealer.com/ddc/resize/250x/quality/72/sharpen/1/ddc/r/ramseysubaruramseysoa/1793/de311009994b88be56cff815939923bbx.jpg" alt="My Picture" id="userImage">
-                    </td>
-                  </tr>
-                </table>
-
+                <img src="guarentee.png" alt="" id="guarentee">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
               </div>
             </td>
           </tr>

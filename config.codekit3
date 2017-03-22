@@ -4,92 +4,167 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "2FCC2CBE-5FDA-44CD-BDF7-B6606FE1A049"
+		"uuidString": "9096B977-A8CF-4D78-8930-5FFDA8163ED6"
 		}
 	],
 "creatorBuild": "25704",
 "files": {
-	"\/brochure.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/brochure.html",
-		"oF": 0
-		},
-	"\/s60.jpg": {
-		"ft": 16384,
-		"iS": 33559,
-		"oA": 0,
-		"oAP": "\/s60.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/s60Cc.jpg": {
-		"ft": 16384,
-		"iS": 28023,
-		"oA": 0,
-		"oAP": "\/s60Cc.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/s90.jpg": {
-		"ft": 16384,
-		"iS": 31683,
-		"oA": 0,
-		"oAP": "\/s90.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/v60.jpg": {
-		"ft": 16384,
-		"iS": 34142,
-		"oA": 0,
-		"oAP": "\/v60.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/v60Cc.jpg": {
-		"ft": 16384,
-		"iS": 42729,
-		"oA": 0,
-		"oAP": "\/v60Cc.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/volvoBase.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/volvoBase.html",
-		"oF": 0
-		},
-	"\/volvoBrochuresHeading.png": {
+	"\/best.png": {
 		"ft": 32768,
-		"iS": 9616,
+		"iS": 6811,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/volvoBrochuresHeading.png",
+		"oAP": "\/best.png",
 		"oF": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/xc60.jpg": {
+	"\/cert.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cert.html",
+		"oF": 0
+		},
+	"\/crystalWhitePearl.jpg": {
 		"ft": 16384,
-		"iS": 41940,
+		"iS": 77583,
 		"oA": 0,
-		"oAP": "\/xc60.jpg",
+		"oAP": "\/crystalWhitePearl.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/xc90.jpg": {
+	"\/guarentee.png": {
+		"ft": 32768,
+		"iS": 87468,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/guarentee.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ribbonBase.png": {
+		"ft": 32768,
+		"iS": 10946,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/ribbonBase.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/ribbonFinal.png": {
+		"ft": 32768,
+		"iS": 102615,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/ribbonFinal.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/signature.png": {
+		"ft": 32768,
+		"iS": 2514,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/signature.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/special.png": {
+		"ft": 32768,
+		"iS": 50499,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/special.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/brochure.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/volvoEmailRefresh\/brochure.html",
+		"oF": 0
+		},
+	"\/volvoEmailRefresh\/s60.jpg": {
+		"ft": 16384,
+		"iS": 33559,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/s60.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/s60Cc.jpg": {
+		"ft": 16384,
+		"iS": 28023,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/s60Cc.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/s90.jpg": {
+		"ft": 16384,
+		"iS": 31683,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/s90.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/v60.jpg": {
+		"ft": 16384,
+		"iS": 34142,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/v60.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/v60Cc.jpg": {
+		"ft": 16384,
+		"iS": 42729,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/v60Cc.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/volvoBase.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/volvoEmailRefresh\/volvoBase.html",
+		"oF": 0
+		},
+	"\/volvoEmailRefresh\/volvoBrochuresHeading.png": {
+		"ft": 32768,
+		"iS": 7007,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/volvoBrochuresHeading.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/xc60.jpg": {
+		"ft": 16384,
+		"iS": 41940,
+		"oA": 0,
+		"oAP": "\/volvoEmailRefresh\/xc60.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/volvoEmailRefresh\/xc90.jpg": {
 		"ft": 16384,
 		"iS": 39552,
 		"oA": 0,
-		"oAP": "\/xc90.jpg",
+		"oAP": "\/volvoEmailRefresh\/xc90.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -100,10 +175,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 506529870,
-	"displayValue": "volvoEmailRefresh",
+	"creationDate": 511881800,
+	"displayValue": "volvoEmails2017",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ceiling"
+	"iconImageName": "brackets_purple"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -885,7 +960,7 @@
 			},
 		"no-extra-parens": {
 			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1205,11 +1280,11 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -1822,7 +1897,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -1830,7 +1905,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
